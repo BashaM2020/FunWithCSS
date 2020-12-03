@@ -2,21 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    
     <title>CSS Fundamentals</title>
-
-    <!-- Un-comment the following line to see what the document looks like with the CSS Reset applied -->
-    <!-- <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> -->
-
-    <!-- Un-comment the following line to see wht the document looks like with Normalize applied -->
-    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css"> -->
-
-    <!-- HINT: Only uncomment one of the above at a time and make sure to refresh your browser to see the effects! -->
-
-    <!-- Re-comment both of the above <link> tags once you've seen their effect -->
-
-    <!-- Create another <link> tag to import the styles.css file -->
-    <!-- That file is where you will put your styles -->
+    <link rel="stylesheet" href="styles.css">
+  
   </head>
+  
+  
   <body>
     <header>
       <h1>CSS Selectors</h1>
@@ -26,7 +18,7 @@
         target style rules to specific elements on the page.
       </p>
     </header>
-
+<br/>
     <article id="selectors" class="exercises">
       <header>
         <h1>Base CSS Selectors</h1>
@@ -82,24 +74,25 @@
           since you have full control over which elements have a particular
           class applied in the HTML.
         </p>
-
+        
         <ul class="class-list">
-          <li class="item odd">
+          <li class="item-odd">
             <p>Change the <code>list-style-type</code> of this list (.class-list) to 'square'</p>
           </li>
-          <li class="item even">
+          <li class="item-even">
             <p>Give every element with class 'item' a border</p>
           </li>
-          <li class="item odd">
+          <li class="item-odd">
             <p>Give elements with class 'even' a <code>background-color</code> of 'grey'</p>
           </li>
-          <li class="item even">
+          <li class="item-even">
             <p>Give elements with class 'odd' a <code>background-color</code> of 'black' and a <code>color</code> of 'white'</p>
           </li>
-          <li class="item odd">
+          <li class="item-odd">
             <p>You're done!</p>
           </li>
         </ul>
+      
       </section>
 
       <section>
@@ -133,6 +126,12 @@
         complete the tasks in this section.
       </p>
 
+
+
+
+
+
+      
       <ol>
         <li>
           <p>
@@ -164,16 +163,27 @@
             of yellow when hovered and red when active. This shouldn't affect the links
             elsewhere in the document.
           </p>
-
-          <ul>
-            <li><a href="#">Subitem 001</a></li>
-            <li><a href="#">Subitem 002</a></li>
-            <li><a href="#">Subitem 003</a></li>
-            <li><a href="#">Subitem 004</a></li>
-            <li><a href="#">Subitem 005</a></li>
-          </ul>
         </li>
       </ol>
+    
+
+
+
+
+
+
+
+
+       <div class= "Subitem">
+          <ul>
+            <li><a href="#" title="subitem">Subitem 001</a></li>
+            <li><a href="#" title="subitem">Subitem 002</a></li>
+            <li><a href="#" title="subitem">Subitem 003</a></li>
+            <li><a href="#" title="subitem">Subitem 004</a></li>
+            <li><a href="#" title="subitem">Subitem 005</a></li>
+          </ul>
+          </div>
+        
     </article>
 
     <h2>Keep playing around, try combining CSS selectors and see what happens!</h2>

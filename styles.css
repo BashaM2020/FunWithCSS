@@ -1,2 +1,105 @@
-/* Move your styles here when you're ready to clean up your HTML file */
-/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+* {
+     font-size: 16px;
+    }
+
+h1 {
+    font-family: "Bookman Old Style", serif;
+}
+
+h2{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+header {
+
+    border-bottom: 3px solid pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.class-list {
+    list-style: square;
+    padding-left: 15px;
+}
+
+.item-odd{
+
+    background-color: black;
+    color: lightgreen;
+    border: 5px solid red;
+}
+
+.item-even{
+
+    background-color: grey;
+    border: 5px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+#item1 p {
+
+    font-size: 30px;
+}
+
+#item2 p {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ol li{
+    background-color: grey;
+    padding: 10px;
+}
+
+ol li:nth-child(odd) {
+    background-color: green
+}
+
+a[title="CodeDev"]:hover {
+
+    text-decoration: none;
+}
+
+a[title="subitem"]:hover {
+    
+    background-color: yellow;
+}
+
+.Subitem > ul > li > a:active {
+    color: blue;
+
+}
